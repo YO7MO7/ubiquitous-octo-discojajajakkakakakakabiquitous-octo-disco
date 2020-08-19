@@ -46,6 +46,21 @@ client.on("ready", () => {
 });
 
 
+ 
+
+client.on('message', message => {
+    var prefix = "+help";
+if (message.content.startsWith(prefix + 'tag')) {
+    let args = message.content.split(" ").slice(1);
+if(!args[0]) return message.reply(**يُرجي كتابه النص**');  
+
+    figlet(args.join(" "), (err, data) => {
+              message.channel.send("" + data + "")
+           })
+}
+});
+
+
 
 
 
