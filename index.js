@@ -38,7 +38,7 @@ const developers = ""
 
 
 
-كود حاله بسيط 
+
 client.on("ready", () => {
    btrolie.user.setActivity("حالت البوت هون ")
 
@@ -46,7 +46,7 @@ client.on("ready", () => {
 });
 
 
-@here 
+
 
 
 client.login("");
