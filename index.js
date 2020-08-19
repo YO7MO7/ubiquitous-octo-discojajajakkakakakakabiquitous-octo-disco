@@ -49,4 +49,4 @@ client.on("ready", () => {
 
 
 
-client.login("");
+client.login("NzMxODQzMzQ0ODgzNTE1NDUy.Xwr8Og.rSJqECHDMmbPnlhegGYSGwO-1A8");
